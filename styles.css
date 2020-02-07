@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+  font-size: 62.5%;
+  font-weight: normal;
+  letter-spacing: 0.2px;
+  color: #545e6f;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background: #f1f2f5;
+}
+
+.header {
+  background: #451771;
+  padding: 20px 25px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.logo-ultimate {
+  height: 30px;
+  width: 30px;
+  background: url('https://drive.google.com/uc?export=view&id=1gjKk20q5MgptDtuXqc0gAPFcSmkcHJZA')
+    no-repeat center center;
+  background-size: contain;
+}
+
+.logo-name {
+  margin: 0 0 0 14px;
+  line-height: 30px;
+  font-size: 1.6rem;
+  color: #fff;
+}
+
+.header-logo img {
+  height: 100%;
+}
+
+#app {
+  padding-top: 50px;
+  text-align: center;
+}
+
+#app h1 {
+  margin: 0;
+  font-size: 3rem;
+}
+
+#app h1:before {
+  content: '';
+  background: url('https://drive.google.com/uc?export=view&id=1Dbmt6tlQ-fvMf6VCAGEjr5jZewymhdUE')
+    no-repeat center center;
+  background-size: contain;
+  width: 34px;
+  height: 34px;
+  display: inline-block;
+  margin-right: 14px;
+  position: relative;
+  top: 6px;
+}
